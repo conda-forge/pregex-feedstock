@@ -1,5 +1,5 @@
 {% set name = "pregex" %}
-{% set version = "1.4.3" %}
+{% set version = "1.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pregex-{{ version }}.tar.gz
-  sha256: ca4ad29dd9e0a7d9aa682bce3c20652267d01ffba1894b36a50073d0bcb4e6b1
+  sha256: 52b40fd7ea5cd380f4119cb14a2fea78f3bef7da3cc01f4df1528a200e82a0e8
 
 build:
   noarch: python
